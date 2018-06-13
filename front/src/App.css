@@ -1,0 +1,168 @@
+
+
+.wrapper{
+  width:350px;
+  margin:0 auto;
+  
+}
+
+.seeker-list{
+  width:400px;
+  position:relative;
+}
+
+/* .seeker-ok{
+  position:static;
+  right:76%;
+text-decoration:none;
+color:green;
+display:inline-block;
+background-color:white;
+width:20px;
+height:20px;
+line-height:20px;
+text-align:center;
+} */
+
+
+
+/* 
+.mini:hover~.info{ 
+  border-bottom:2px solid black;
+  border-top:1px solid black;
+    height:100px;
+    transition: height .8s ease-out;
+
+} */
+ /* .img{
+   width: 100%;
+   box-sizing: border-box;
+   height: 120px;
+ } */
+ /* .button{
+position:static;
+text-decoration:none;
+color:green;
+display:inline-block;
+background-color:white;
+width:20px;
+height:20px;
+line-height:20px;
+text-align:center;
+ } */
+ 
+   /* .BloodSeekerOk{
+     position :static;
+     right:49%;
+     top:42.6%;
+} */
+#sendbtn{
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+background-color:wheat;
+line-height: 40px;
+display: inline-block;
+text-decoration: none;
+text-align: center;
+color:black;
+}
+/* #sendrequestform{
+  position: static;
+  top:8%;
+  right:5%
+} */
+.bloodlist ,.unitslist {
+  width:100%;
+  height:40px;
+  border:none;
+  padding:6px;  
+  margin :2px 0;
+  cursor: pointer;
+  border :1px solid red;
+  
+}
+
+
+
+ h3{
+   background-color: wheat
+ }
+ .imgcontainer {
+  margin: 24px 0 12px 0;
+}
+
+.logo {
+  width: 40%;
+  border-radius: 50%;
+}
+/* .header{
+  width: 95%;
+  padding: 12px;
+  display: inline-block;
+  background-color: red;
+  box-sizing: border-box;
+  color:white;
+} */
+
+.card-title{
+  width:15%;
+  padding:2px;
+}
+
+
+.messages{
+  height:60px;
+  overflow: auto;
+}
+
+
+
+  
+.homepage{
+  background-image: url("./d.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:550px;
+  position: relative;
+
+}
+.a{
+  width: 45%;
+  height: 25px;
+  line-height: 1px;
+  position: absolute;
+  bottom:25px;
+  left: 10px;
+  background-color:#d4d4d5;
+  color:black
+}
+.ab{
+  width: 45%;
+  height: 25px;
+  line-height: 1px;
+  position: absolute;
+  bottom:25px;
+  left:180px;
+  background-color:#d4d4d5;
+  color:black
+}
+.logo-home{
+  width: 40%;
+  border-radius: 50%;
+  background: transparent
+}
+.Donorlists{
+  width:95%;
+  height:40px;
+  border:none;
+  padding:6px;  
+  margin :2px 0;
+  cursor: pointer;
+  border :1px solid red;
+  border-radius: 10px;
+  outline: none;
+  margin-left: 8px;
+  background-color: white
+  
+}

@@ -1,0 +1,178 @@
+form {border: 3px solid #f1f1f1;
+
+}
+
+.loginForm {
+    border: 3px solid #f1f1f1;
+    height:541px
+
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid white;
+    box-sizing: border-box;
+    outline: none;
+    border-bottom: 0.1px solid grey;
+    padding-top: 17px;
+    line-height: 30px;
+}
+
+.loginBtn {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 9px;
+    border-radius: 10px;
+    height: 37px;
+    line-height: 7px;
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1px;
+    border-radius: 10px
+}
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.logo1 {
+    width: 344px;
+    margin-top: -25px;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+#BloodTypes{
+   height:40px;
+   width:100%;
+   border: 1px solid red;
+   display: inline-block;
+   box-sizing: border-box;
+   margin: 1.5px 0;
+   padding: 8px;
+   cursor: pointer;
+   
+}
+
+.chkBoxHelp{
+    width:100%; 
+    height:40px;
+    line-height: 20px;
+    border :1px solid red;
+    box-sizing: border-box;
+    margin: 1.5px 0;
+    padding: 8px;
+    
+}
+
+.btn{
+    width: 30%;
+    padding: 12px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid wheat;
+    box-sizing: border-box;
+    background-color: wheat;
+    color:black
+    
+}
+.popup{
+    position: absolute;
+    top:0px;
+    left:37.4%;
+    height:530px;
+    width: 346px;
+    padding: 12px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    background: white;
+    overflow: auto;
+    /* background-image: url("./logo.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100px 100px     */
+}
+
+@media only screen and (max-width: 1125px) {
+    .popup {
+        position: absolute;
+        top:0px;
+        left:2%;
+        height: 543px;
+        width:95.7%;;        
+        padding: 12px;
+        margin: 3px 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background: white;
+        overflow: auto;
+        }
+}
+
+.seaker-list{
+    overflow: auto;
+    height:250px;
+}
+.Acceptpopup , .Cancelpopup{
+    width:48%;
+    margin:2px
+}
+.logout{
+    cursor: pointer;
+    position: relative;
+    right: 145px;
+    background-color:wheat
+}
+
+input[type="text"] {
+    width: 312px;
+}
+
+.ui[class*="left icon"].input>input {
+    
+    border-radius: 10px;
+}
+/* .donor-registration{
+    background: red;
+    
+} */
+
+.btnwraper button {
+color:black;
+background-color: white;
+border: 1px solid black;
+margin:3px;
+margin-left: 15px
+}
+.ui.segment.pushable{
+    width:347px
+}
+

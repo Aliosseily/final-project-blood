@@ -1,0 +1,32 @@
+.menu {
+    width: 13%;
+    position: absolute;
+    z-index: 5;
+    cursor: pointer;
+  }
+
+button.ui.button.menuBtn {
+    position: absolute;
+    z-index: 5;
+    background-image: url('./menu.png');
+}
+
+.ui.inverted.vertical.labeled.icon.overlay.left.thin.visible.sidebar.menu {
+    width: 250px;
+    background:white !important;
+    cursor: pointer;
+    
+  
+  }
+  a.item {
+    color:black;
+  border-bottom: 1px solid black;
+
+  }
+
+  .username-menu{
+   background-color: red;
+   height:152px
+  }
+
+ 
