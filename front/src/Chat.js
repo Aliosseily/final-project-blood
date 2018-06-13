@@ -6,7 +6,7 @@ class Chat extends React.Component{
         super(props);
 
         this.state = {
-            // username: this.props.user.username,
+            username: this.props.user.username,
             message: '',
             messages: [],
             isHidden: true
