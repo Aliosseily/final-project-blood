@@ -111,9 +111,9 @@
 }
 .ui.modal.transition.visible.active{
     margin-top: 26px !important;
-    width:342px;
-    margin-left: 495.5px;
+    width:343px;
     height: 568px;
+    margin-left: -5px
 }
 .ui.page.modals.dimmer.transition.visible.active {
     background: transparent;
@@ -137,4 +137,8 @@
     /* .ui.page.modals.dimmer.transition.visible.active {
         background: transparent;
     } */
+}
+input.form-control {
+    padding: 8px;
+    border: 1px solid #cac8c8;
 }

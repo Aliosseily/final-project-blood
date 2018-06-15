@@ -81,7 +81,7 @@ class BloodSeekerMini extends React.Component {
                 <div className="blood-seeker-additional-info">
 
                     Quantity:&emsp;{units}<br /> <br /> Hospital:&emsp;{hospital} <br /> <br /> Address:&emsp;{address}<br />
-                    <img className="phone" alt="phoneicon" src={require('./icona-telefono.png')} onClick={phonenumber} />
+                     <img className="phone" alt="phoneicon" src={require('./icona-telefono.png')} onClick={phonenumber} />
                     <img className="chat" alt="chaticon" src={require('./chat.png')} onClick={this.toggleHidden} />
                     <div className="chatlayout">
                         {this.state.isHidden ? "" :
@@ -106,7 +106,7 @@ class BloodSeekerMini extends React.Component {
                         </Modal.Header>
                         <Modal.Content>
                             <b>Quantity:</b>&emsp;{units}<br /> <br /> <b>Hospital:</b>&emsp;{hospital} <br /> <br /> <b>Address:</b>&emsp;{address}<br /><br /> <b>Phone:</b>&emsp;{phone}<br /><br />
-                           <a href="tel:+96181647748" ><img className="phone" alt="phoneicon" src={require('./a.jpg')} onClick={phonenumber} />
+                           <a href="tel:71186507" ><img className="phone" alt="phoneicon" src={require('./a.jpg')} onClick={phonenumber} />
                             </a>
                             <div className="chatlayout">
                                 <div className="chat-container" style={{ background: 'white' }}>
